@@ -6,6 +6,7 @@ const initialForm = {
   name: '', phone: '', vehicleModel: '', vehiclePlate: '',
 };
 
+
 function DriversPage() {
   const [drivers, setDrivers] = useState([]);
   const [loading, setLoading] = useState(true);
