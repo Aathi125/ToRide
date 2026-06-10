@@ -14,6 +14,7 @@ const statusColors = {
   CANCELLED: { bg: '#fee2e2', color: '#dc2626' },
 };
 
+
 function BookingPage() {
   const [form, setForm] = useState(initialForm);
   const [submitting, setSubmitting] = useState(false);
