@@ -3,7 +3,7 @@ import React from 'react';
 function BookingConfirmation({ booking, onClose, onComplete }) {
   if (!booking) return null;
 
-  
+
   return (
     <div style={styles.overlay}>
       <div style={styles.modal}>
@@ -30,6 +30,7 @@ function BookingConfirmation({ booking, onClose, onComplete }) {
             <span style={styles.value}>{booking.passengerName}</span>
           </div>
         </div>
+
 
         <div style={styles.driverSection}>
           <h4 style={styles.sectionTitle}>Assigned Driver</h4>
