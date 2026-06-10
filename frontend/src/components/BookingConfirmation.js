@@ -3,6 +3,7 @@ import React from 'react';
 function BookingConfirmation({ booking, onClose, onComplete }) {
   if (!booking) return null;
 
+  
   return (
     <div style={styles.overlay}>
       <div style={styles.modal}>
