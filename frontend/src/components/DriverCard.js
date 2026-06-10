@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const statusColors = {
   AVAILABLE: { bg: '#dcfce7', color: '#16a34a', dot: '#22c55e' },
   BUSY: { bg: '#fef9c3', color: '#ca8a04', dot: '#eab308' },
