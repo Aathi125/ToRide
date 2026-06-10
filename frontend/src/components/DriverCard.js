@@ -14,6 +14,7 @@ function DriverCard({ driver, onStatusChange, onDelete }) {
     <div style={styles.card}>
       <div style={styles.topRow}>
         <div style={styles.avatar}>
+          
           {driver.name.charAt(0).toUpperCase()}
         </div>
         <div style={styles.info}>
