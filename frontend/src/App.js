@@ -42,6 +42,7 @@ function App() {
         </div>
       </aside>
 
+
       {/* Main Content */}
       <main style={styles.main}>
         <div style={styles.content}>
