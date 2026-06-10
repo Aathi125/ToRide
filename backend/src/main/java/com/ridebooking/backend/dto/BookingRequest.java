@@ -2,6 +2,7 @@ package com.ridebooking.backend.dto;
 
 import jakarta.validation.constraints.NotBlank;
 
+
 public class BookingRequest {
 
     @NotBlank(message = "Passenger name is required")
