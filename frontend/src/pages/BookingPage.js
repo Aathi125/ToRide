@@ -15,6 +15,7 @@ const statusColors = {
 };
 
 
+
 function BookingPage() {
   const [form, setForm] = useState(initialForm);
   const [submitting, setSubmitting] = useState(false);
